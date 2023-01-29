@@ -1,5 +1,5 @@
 
-BASE_RUN_PATH=/home/zyc/zdh_server/release
+BASE_RUN_PATH=F:/ruoyi/data_server/release
 files=`sh $BASE_RUN_PATH/bin/ljars.sh $BASE_RUN_PATH`
 echo $files
 nohup ${SPARK_HOME}/bin/spark-submit \
